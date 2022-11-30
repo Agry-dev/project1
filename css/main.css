@@ -1,0 +1,304 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 15px 15px 50px;
+
+
+    width: 252px;
+    min-height: 100vh;
+    
+}
+
+.sidebar-logo {
+    margin-bottom: 57px;
+}
+
+.nav-title {
+    margin-bottom: 44px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.nav-list {
+    font-size: 16px;
+}
+
+.nav-list li + li {
+    margin-top: 27px;
+}
+
+.nav-list a {
+    transition: color 0.2s ease-in;
+    transition: scale 0.2s ease-in;
+}
+
+.nav-list a:hover {
+    color: #F4DE4D;
+    scale: 1.1;
+}
+
+.nav-list img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 26px;
+    height: auto;
+    object-fit: none;
+}
+
+.help {
+    font-size: 16px;
+}
+
+.help-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.sidebar-help {
+    margin-top: auto;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    /* height: 24px; */
+    margin-top: 50px;
+    margin-bottom: 70px;
+    /* background-color: blueviolet;
+    outline: 1px solid tomato; */
+
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    width: 494px;
+    background-color: #FAFAFA;
+    /* height: 44px; */
+    /* background-color: blue; */
+}
+
+.search-label {
+    height: 100%;
+    display: flex;
+}
+
+.search-input {
+    background-color: #FAFAFA;
+    flex-grow: 1;
+    padding: 0 17px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Circular Std';
+}
+
+.search-input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.header-nav-list {
+    font-size: 17px;
+    line-height: 1;
+    height: 24px;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-header-link-text {
+    position: relative;
+}
+
+.nav-header-link-text::after {
+    position: absolute;
+    left: 0;
+    width: 0%;
+    bottom: -9px;
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+    transition: width 0.2s ease-in;
+}
+
+.nav-header-link-text:hover::after {
+    width: 100%;
+}
+
+.nav-header-link-text.active::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -9px;
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+
+}
+
+.header-nav-list li + li {
+    margin-left: 44px;
+}
+
+.header-user-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-user-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.header-user-icon + .header-user-icon {
+    margin-left: 25px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    
+}
+
+.img {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.card1.first {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.card1.second {
+    margin-left: 20px;
+}
+
+.card2 {
+    display: flex;
+    
+    
+}
+
+.item a {
+    display: inline;
+}
+
+.card1 .item + .item {
+    margin-top: 21px;
+}
+
+.card2 .item+.item {
+    margin-left: 21px;
+}
+
+/* .img-vector-one {
+    width: 539px;
+    height: 180px;
+    background-image: url(../img/cards/vector1.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 700;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    outline: 1px solid tomato;
+}
+
+.cards-wrapper-row {
+    display: flex;
+    column-gap: 20px;
+    outline: 1px solid teal;
+}
+
+.cards-wrapper-col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    outline: 1px solid black;
+}
+
+.horizontal {
+    display: flex;
+    column-gap: 20px;
+    outline: 1px solid blue;
+}
+
+.vertical {
+    display: flex;
+    row-gap: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-horizontal {
+    width: 539px;
+    height: 180px;
+}
+
+.card-sale {
+
+    background-image: url(../img/cards/vector1.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card-summer-sale {
+    background-image: url(../img/cards/vector2.svg);
+    background-size: cover;
+    background-position: center;
+}
