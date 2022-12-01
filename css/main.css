@@ -33,7 +33,7 @@
 }
 
 .nav-list a:hover {
-    color: #F4DE4D;
+    color: #FD2E24;
     scale: 1.1;
 }
 
@@ -210,6 +210,42 @@
 .card2 .item+.item {
     margin-left: 21px;
 }
+
+.img-vector-one {
+    position: relative;
+    text-align: center;
+
+}
+
+.vector-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 28px;
+}
+.card-text {
+    position: relative;
+    text-align: center;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 90px;
+    left: 16px;
+    font-size: 28px;
+    color: #FD2E24;
+}
+
+.img-text-second {
+    position: absolute;
+    bottom: 70px;
+    left: 18px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 
 /* .img-vector-one {
     width: 539px;
