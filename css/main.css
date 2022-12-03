@@ -102,11 +102,16 @@
 }
 
 .search-input:focus, .search-input:active {
+    color: #FAFAFA;
     background-color: #be3455;
 }
 
 .search-input::placeholder {
     color: rgba(0, 0, 0, 0.3);
+}
+
+.search-input:focus::placeholder {
+    color: #FAFAFA;
 }
 
 .header-nav-list {
